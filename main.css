@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* This is about the Nav  */
+/* This is commen for all the pages Except the Login and Registration page  */
+
+Nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  background-color: #30011e;
+}
+Nav .left {
+  color: #fff;
+}
+Nav .left img {
+  height: 25px;
+  object-fit: cover;
+}
+Nav .center {
+  width: 400px;
+  background-color: #30011e;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+}
+Nav span {
+  color: #fff;
+}
+Nav .right img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: solid #fff 2px;
+  object-fit: cover;
+}
+
+/* The Nav End's Here  */
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* This is about the main   */
+/* This is commen for all the pages Except the Login and Registration page  */
+
+Main {
+  margin-top: 60px;
+  width: 100vw;
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+/* the commen thing is done here  */
+
+Main .left {
+  position: fixed;
+  left: 1vw;
+
+  width: 23%;
+  height: 80vh;
+  min-height: 500px;
+}
+
+Main .left {
+  position: fixed;
+  left: 1vw;
+
+  width: 23%;
+  max-width: 300px;
+  /* background-color: #845; */
+  height: 80vh;
+  min-height: 500px;
+}
+
+Main .left h3 {
+  text-align: center;
+}
+Main .left li {
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+Main .left li span {
+  margin-right: 10px;
+}
+Main .left li .bagage {
+  margin-left: auto;
+}
+
+Main .right {
+  position: fixed;
+  right: 1vw;
+  width: 23%;
+  max-width: 300px;
+  /* background-color: rgb(37, 59, 181); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+Main .right img {
+  width: 16vw;
+  height: 16vw;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 2vw;
+}
+Main .right .centerflex {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+Main .center {
+  width: 50%;
+  /* background-color: #578; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+Main .center .postcard {
+  width: 40vw;
+  max-width: 600px;
+  min-width: 300px;
+  height: fit-content;
+  min-height: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0px 6px 10px #0002;
+  padding: 10px;
+}
+Main .center .postheader {
+  width: 100%;
+  /* background-color: #744; */
+  max-width: 600px;
+
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+Main .center .postheader img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+Main .center .postheader h5 {
+  margin-left: 10px;
+}
+Main .center .postheader span {
+  margin-left: auto;
+}
+
+Main .center .postcontaint {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+Main .center .postactionbtn {
+  margin-top: auto;
+  width: 100%;
+  /* background-color: rgb(216, 42, 42); */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+Main .center .postactionbtn span {
+  margin-right: 20px;
+}
+
+.maincon {
+  width: 100vw;
+  height: 100vh;
+}
+.maincon img{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  object-fit: cover ;
+}
+.maincon .form {
+  width: 500px;
+  height: auto;
+  position: relative;
+  padding: 30px;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  box-shadow: 6px 10px 20px #0028;
+  border-radius: 20px;
+}
+
+.maincon .form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.maincon .form h1 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.maincon .form form input {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.maincon .form form button {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #30011e;
+  color: #fff;
+  border: 0px solid;
+}
+.maincon .form .links {
+  display: flex;
+  padding: 0px 40px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.maincon .form .links a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* 834957459834598 */
+
+.fb {
+  background-color: #3b5998;
+}
+.google {
+  background-color: #E34133 ;
+}
+.btn {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #fff;
+    border: 0px solid;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none; /* remove underline from anchors */
+}
+.conwithlinks {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    align-self: center;
+    }
+
+/* 834957459834598 */
+
+@media screen and (max-width: 1000px) {
+  Main .left {
+    position: relative;
+    width: 30vw;
+    min-width: 230px;
+    overflow-y: scroll;
+    /* background-color: rgb(37, 59, 181); */
+  }
+  Main .right {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: fit-content;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  Main .center {
+    width: 50%;
+  }
+  Main {
+    margin-top: 60px;
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  Nav {
+    height: 45px;
+    padding: 0px 20px;
+  }
+  Nav .left img {
+    height: 20px;
+    object-fit: cover;
+  }
+
+  Nav .right img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: solid #fff 1px;
+    object-fit: cover;
+  }
+  Nav .center {
+    position: fixed;
+    top: 100vh;
+    left: 0px;
+    transform: translate(0px, -100%);
+    width: 100vw;
+    height: 50px;
+    background-color: #30011e;
+  }
+  /* The Nav End's Here  */
+  /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+  /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+  /* This is about the main   */
+  Main {
+      margin: 50px 0;
+    }
+    
+    Main .left {
+        display: none;
+    }
+  Main .center {
+      width: 100%;
+    }
+  Main .center .postcard {
+      width: 90vw;
+      max-width: 600px;
+      min-width: 300px;
+      height: fit-content;
+      min-height: 200px;
+      background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px #0002;
+    padding: 10px;
+}
+/* The main End's Here  */
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* This is about the login   */
+.maincon .form {
+    width: 100vw;
+    height: auto;
+    top: 35%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius:0px;
+  }
+  .maincon img{
+    width: 100vw;
+    height: 37vh;
+    object-fit: cover;
+    position: fixed;
+  }
+}
