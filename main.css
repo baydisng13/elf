@@ -191,11 +191,11 @@ Main .center .postactionbtn span {
   width: 100vw;
   height: 100vh;
 }
-.maincon img{
+.maincon img {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  object-fit: cover ;
+  object-fit: cover;
 }
 .maincon .form {
   width: 500px;
@@ -214,7 +214,6 @@ Main .center .postactionbtn span {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
 .maincon .form h1 {
   padding-bottom: 20px;
@@ -252,69 +251,104 @@ Main .center .postactionbtn span {
   background-color: #3b5998;
 }
 .google {
-  background-color: #E34133 ;
+  background-color: #e34133;
 }
 .btn {
-    width: 80%;
-    margin-bottom: 20px;
-    padding: 10px;
-    color: #fff;
-    border: 0px solid;
-    border-radius: 4px;
-    margin: 5px 0;
-    opacity: 0.85;
-    display: inline-block;
-    font-size: 14px;
-    text-decoration: none; /* remove underline from anchors */
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #fff;
+  border: 0px solid;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none; /* remove underline from anchors */
 }
 .conwithlinks {
-    width: 100%;
-    padding: 0 20px;
-    text-align: center;
-    align-self: center;
-    }
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  align-self: center;
+}
 
 /* 834957459834598 */
 /* this is the topic page css */
 /* 834957459834598 */
-.headercenter{
-    margin-top: 20px;
-    text-align: center;
-    color: rgb(39, 39, 39);
+.headercenter {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(39, 39, 39);
 }
-.conforthecheckbox{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px;
-    justify-content: center;
+.conforthecheckbox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: center;
 }
 
-.conforthecheckbox .each{
-    background-color: #ffffff; 
-    color: #000;
-    box-shadow: rgba(0, 0, 0, 0.22) 1px 2px 4px;
-    width: 300px;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 5px;
+.conforthecheckbox .each {
+  background-color: #ffffff;
+  color: #000;
+  box-shadow: rgba(0, 0, 0, 0.22) 1px 2px 4px;
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
 }
-.maincon form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.maincon form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.maincon form button{
-    padding: 10px 30px;
-    background-color: #30011e;
-    color: #fff;
-    border: solid 0px; 
-    width: 100px;
-    margin-bottom: 50px;
+.maincon form button {
+  padding: 10px 30px;
+  background-color: #30011e;
+  color: #fff;
+  border: solid 0px;
+  width: 100px;
+  margin-bottom: 50px;
+}
+
+/* 834957459834598 */
+/* this is going to be the notification  */
+/* 834957459834598 */
+
+.notecard {
+  width: 40vw;
+  max-width: 600px;
+  min-width: 300px;
+  min-height: 70px;
+  background-color: #fff;
+  border-bottom: #000 solid 1px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.022);
+  padding: 10px 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #30011e;
+}
+.notecard .hour {
+  margin-left: auto;
+}
+.notecard .icon {
+  margin-right: 10px;
+}
+.notecard img {
+  background-color: rgb(0, 0, 0);
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.notetitle {
+  margin-bottom: 20px;
 }
 
 /* 834957459834598 */
 /* 834957459834598 */
-
 
 @media screen and (max-width: 1000px) {
   Main .left {
@@ -378,43 +412,46 @@ Main .center .postactionbtn span {
   /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
   /* This is about the main   */
   Main {
-      margin: 50px 0;
-    }
-    
-    Main .left {
-        display: none;
-    }
+    margin: 50px 0;
+  }
+
+  Main .left {
+    display: none;
+  }
   Main .center {
-      width: 100%;
-    }
+    width: 100%;
+  }
   Main .center .postcard {
-      width: 90vw;
-      max-width: 600px;
-      min-width: 300px;
-      height: fit-content;
-      min-height: 200px;
-      background-color: rgb(255, 255, 255);
+    width: 90vw;
+    max-width: 600px;
+    min-width: 300px;
+    height: fit-content;
+    min-height: 200px;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 0px 6px 10px #0002;
     padding: 10px;
-}
-/* The main End's Here  */
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-/* This is about the login   */
-.maincon .form {
+  }
+  /* The main End's Here  */
+  /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+  /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+  /* This is about the login   */
+  .maincon .form {
     width: 100vw;
     height: auto;
     top: 35%;
     left: 0%;
     transform: translate(0%, 0%);
     border-bottom-left-radius: 0px;
-    border-bottom-right-radius:0px;
+    border-bottom-right-radius: 0px;
   }
-  .maincon img{
+  .maincon img {
     width: 100vw;
     height: 37vh;
     object-fit: cover;
     position: fixed;
+  }
+  .notecard {
+    width: 90vw;
   }
 }
