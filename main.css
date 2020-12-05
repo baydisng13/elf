@@ -350,6 +350,32 @@ Main .center .postactionbtn span {
 /* 834957459834598 */
 /* 834957459834598 */
 
+/* 834957459834598 */
+/* this is for the explor page */
+/* 834957459834598 */
+.srchform{
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+  max-width: 600px;
+  min-width: 300px;
+  margin-bottom: 60px;
+}
+.srchform .srch{
+   padding: 10px    20px ;
+   width: 300px;
+   border-radius: 20px;
+   border: solid 1px;
+}
+.srchform .srchbtn{
+   padding: 10px    20px ;
+   margin-left: 10px;
+   border-radius: 20px;
+   border: solid 1px;
+}
+/* 834957459834598 */
+/* 834957459834598 */
+
 @media screen and (max-width: 1000px) {
   Main .left {
     position: relative;
@@ -454,4 +480,7 @@ Main .center .postactionbtn span {
   .notecard {
     width: 90vw;
   }
+  .srchform{
+    width: 90vw;
+}
 }
