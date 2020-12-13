@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
@@ -146,6 +147,7 @@ Main .center .postcard {
   border-radius: 20px;
   box-shadow: 0px 6px 10px #0002;
   padding: 10px;
+  margin: 20px 0px;
 }
 Main .center .postheader {
   width: 100%;
@@ -162,6 +164,7 @@ Main .center .postheader img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  object-fit: cover;
 }
 Main .center .postheader h5 {
   margin-left: 10px;
@@ -376,6 +379,127 @@ Main .center .postactionbtn span {
 /* 834957459834598 */
 /* 834957459834598 */
 
+/* 834957459834598 */
+/* 834957459834598 */
+.top3{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.top3 .con{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  min-width: 100px;
+  margin: 1vw;
+}
+.top3 .con h1{
+  margin-bottom: 1vw;
+  font-size: 40px;
+}
+.top3 .con img{
+  width: 100%;
+  height: 10vw;
+  min-height: 100px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.top3 .con h2{
+  margin-bottom:0.5vw;
+  font-size: 30px;
+}
+
+.top4to20{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.top4to20 .con{
+  display: flex;
+  width: 30vw;
+  min-width: 80%;
+  margin: 20px 0px;
+  align-items: center;
+}
+.top4to20 .con img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+.top4to20 .con h2{
+  margin-left: auto;
+}
+
+
+.top4to20 hr{
+  width: 80%;
+  color: #30011e;
+}
+
+/* 834957459834598 */
+/* 834957459834598 */
+
+/* 834957459834598 */
+/* 834957459834598 */
+.comment {
+  margin: 20px 0px;
+  width: 80%;
+}
+.comment input {
+  min-width: 100px;
+  padding: 10px 30px;
+}
+.comment button {
+  padding: 10px ;
+  border: solid 0px;
+  background: #30011e;
+  color: #fff;
+}
+
+/* 834957459834598 */
+/* 834957459834598 */
+
+/* 834957459834598 */
+/* 834957459834598 */
+.center .profile {
+  margin-bottom: 20px;
+}
+.center .profile img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.center .profile .centerflex{
+  display: flex;
+  justify-content: center;
+
+}
+.center .profile .centerflex .horflex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.center .profile .centerflex .horflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/* 834957459834598 */
+/* 834957459834598 */
+
 @media screen and (max-width: 1000px) {
   Main .left {
     position: relative;
@@ -407,7 +531,7 @@ Main .center .postactionbtn span {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   Nav {
     height: 45px;
     padding: 0px 20px;
@@ -482,5 +606,6 @@ Main .center .postactionbtn span {
   }
   .srchform{
     width: 90vw;
-}
+  }
+  
 }
